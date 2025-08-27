@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+.background{
+    background-color: #00a63e;
+}
+
+/* nav bar = class"nav-parent-div" */
+.nav-parent-div{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 24px 50px;
+
+}
+
+/* left-side = class"left-side" */
+
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 195px;
+    gap: 12px;
+}
+
+/* right side = class"" */
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+/* right-third */
+.right-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 123px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #41ff6b1a;
+    gap: 10px;
+}
+
+/* right-second */
+.right-second{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 106px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: #41ff6b1a;
+    gap: 10px;
+}
+
+/* right-first */
+.right-first{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 127px;
+    height: 52px;
+    border-radius: 50px;
+    gap: 6px;
+    
+}
