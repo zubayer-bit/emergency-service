@@ -33,10 +33,11 @@
 
 </head>
 
-<body >
+<body class=" bg-[#f5fff6]">
 
     <!-- nav bar section-->
-     <div class="nav-parent-div max-w-[1250px] mx-auto ">
+     <div class=" bg-white">
+        <div class="nav-parent-div max-w-[1250px] mx-auto ">
         <!-- left-side -->
         <div class="  left-side  ">
             <img src="./B12-A5-Emergency-Hotline/assets/logo.png" class="w-[50px] h-[50px]" alt="">
@@ -51,7 +52,7 @@
                 <img src="./B12-A5-Emergency-Hotline/assets/heart.png" class="h-[30px] w-[30px]" alt="">
             </div>
             <div class=" right-second ">
-                <h1 class="font-bold"><span>100</span> </h1>
+                <h1 class="font-bold"><span id="coin-num">100</span> </h1>
                 <img src="./B12-A5-Emergency-Hotline/assets/coin.png" class="h-[30px] w-[30px]" alt="">
             </div>
             <div class=" right-first  background">
@@ -61,8 +62,9 @@
             </div>
          </div>
      </div>
+     </div>
 
-
+     <main class="">
      <!-- Hero Section -->
       <div class="hero-section   bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] mb-[48px]">
         
@@ -74,12 +76,13 @@
 </div>
             
     <!--  Main Section -->
-      <div class=" main-Section max-w-[1270px] mx-auto max-h-[1140px] ">
+      
+        <div class=" main-Section max-w-[1270px] mx-auto h-[1140px]  ">
 
         <div class="first-col  max-w-[25%] ">
             <!-- 1 -->
-           <div class="National-Emergency ">
-             <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
+           <div class="National-Emergency bg-white mb-3">
+             <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px] ">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
                 <div class=" mb-[13px] rounded-[16px] bg-[#ffe3e2] w-[60px] h-[60px] flex justify-center items-center">
@@ -104,13 +107,13 @@
                     <p class="font-normal text-[18px] hind-madurai">All</p>
                 </div>
                 <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn1" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 2 -->
-            <div class="Ambulance-Service ">
+            <div class="Ambulance-Service bg-white mb-3">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -135,14 +138,15 @@
                 <div class="mb-[30px] w-[83px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Health</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                  <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <!-- 2 -->
+                    <button id="call-btn2" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 3 -->
-            <div class="Electricity-Helpline ">
+            <div class="Electricity-Helpline bg-white">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -168,9 +172,9 @@
                 <div class="mb-[35px] w-[109px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Electricity</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                   <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn3" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
@@ -178,7 +182,7 @@
         </div>
         <div class="second-col  max-w-[25%] "> 
             <!-- 1 -->
-           <div class="Police-Helpline ">
+           <div class="Police-Helpline bg-white mb-3">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -204,14 +208,14 @@
                 <div class="mb-[35px] w-[79px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Police</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                  <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn4" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 2 -->
-            <div class="Women-Child"> 
+            <div class="Women-Child bg-white mb-3"> 
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -237,14 +241,14 @@
                 <div class="mb-[35px] w-[68px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Help</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                 <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn5" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 3 -->
-            <div class="Brac-Helpline "> 
+            <div class="Brac-Helpline bg-white"> 
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -270,9 +274,9 @@
                 <div class="mb-[35px] w-[69px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">NGO</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                 <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn6" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
@@ -280,7 +284,7 @@
         </div>
         <div class="third-col  max-w-[25%] ">
             <!-- 1 -->
-           <div class="Fire-Service ">
+           <div class="Fire-Service bg-white mb-3">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -306,14 +310,14 @@
                 <div class="mb-[35px] w-[61px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Fire</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                  <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn7" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 2 -->
-            <div class="Anti-Corruption ">
+            <div class="Anti-Corruption bg-white mb-3">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -339,14 +343,14 @@
                 <div class="mb-[35px] w-[73px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Govt.</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                 <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn8" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
            <!-- 3 -->
-            <div class="Bangladesh-Railway">
+            <div class="Bangladesh-Railway bg-white">
              <div class=" shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]  h-[360px] p-[14px]">
                 <div class="flex justify-between items-center ">
                     <!-- image -->
@@ -372,27 +376,30 @@
                 <div class="mb-[35px] w-[79px] h-[37px] flex justify-center items-center bg-[#f2f2f2] rounded-[9999px] ">
                     <p class="font-normal text-[18px] hind-madurai">Travel</p>
                 </div>
-                <div class="button-div flex justify-center items-center gap-[8px]">
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Copy</a></button>
-                    <button class="flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href="">Call</a></button>
+                 <div class="button-div flex justify-center items-center gap-[8px]">
+                    <button class=" flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#ffffff] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-regular fa-copy copy-icon"></i>Copy</a></button>
+                    <button id="call-btn9" class="text-white flex justify-center items-center font-normal text-[16px] roboto-font w-[182.33px] h-[40px] p-[16px] bg-[#00a63e] border-[1px] border-solid border-[#d4d6d5] rounded-[8px]"><a href=""><i class="fa-solid fa-phone call-icon"></i>Call</a></button>
                 </div>
             </div>
            </div>
             
         </div>
 
-        <div class="fourth-col h-[1080px]  shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]   w-full">
-            <div class="flex justify-between items-center ">
+        <div  class="bg-white fourth-col h-[1104px]  shadow-[0_2px_3px_0_rgba(0,0,0,0.15)] rounded-[12px]   w-full">
+            <div class="flex justify-between items-center p-[10px] mt-[10px] mb-[16px]">
                 <h1 class="font-medium text-[20px] roboto-font"> <i class="fa-regular fa-clock icon-1"></i> Call History</h1>
-                <button class=" w-[114px] h-[52px] font-semibold text-[16px] inter-font background rounded-[50px] text-white">Clear</button>
+                <button id="Clear-btn" class=" w-[100px] h-[50px] font-semibold text-[16px] inter-font background rounded-[50px] text-white">Clear</button>
             </div>
 
-            <div class="history-data">
+          <!-- call history div -->
+         <div id="history-container" class="h-[988px] ">
 
-            </div>
+         </div>
+
         </div>
         
       </div>
+      </main>
        
 
                        

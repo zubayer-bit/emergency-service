@@ -37,6 +37,15 @@
     color: #5C5C5C;
 }
 
+
+.call-icon{
+    color: white;
+    margin-right: 8px;
+}
+
+.copy-icon{
+    margin-right: 6px;
+}
 /* shared color */
 .background{
     background-color: #00a63e;
@@ -127,3 +136,5 @@
     align-items: center;
     gap: 10px;
 }
+
+
