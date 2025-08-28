@@ -120,7 +120,10 @@
 
 }
 
-
-/* .main-Section{
-    grid-template-columns: repeat(4, 1fr);
-} */
+/* main-Section */
+.main-Section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
