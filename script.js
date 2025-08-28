@@ -603,3 +603,146 @@ document.getElementById('Clear-btn').addEventListener('click', function(e){
 })
 
 //---------------------------------------call history and call button clicked end-------------
+
+
+// --------------------------------------------copy clicked start--------------------------
+
+//copy1 button click event
+document.getElementById('copy1').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('999');
+    alert('Number Copied:999')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy2 button click event
+document.getElementById('copy2').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('1994-999999');
+    alert('Number Copied:1994-999999')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy3 button click event
+document.getElementById('copy3').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('16216');
+    alert('Number Copied:16216')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy4 button click event
+document.getElementById('copy4').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('999');
+    alert('Number Copied:999')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy5 button click event
+document.getElementById('copy5').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('109');
+    alert('Number Copied:109')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy6 button click event
+document.getElementById('copy6').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('16445');
+    alert('Number Copied:16445')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy7 button click event
+document.getElementById('copy7').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+    // number copy ar code
+        navigator.clipboard.writeText('999');
+    alert('Number Copied:999')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy8 button click event
+document.getElementById('copy8').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+     // number copy ar code
+        navigator.clipboard.writeText('106');
+    alert('Number Copied:106')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+//copy9 button click event
+document.getElementById('copy9').addEventListener('click', function(e){
+    e.preventDefault();
+    // console.log('copy clicked');
+
+        // number copy ar code
+        navigator.clipboard.writeText('163');
+
+    alert('Number Copied:163')
+    let copyAvailable = parseInt(document.getElementById('copy-available').innerText);
+
+    let counts = 0;
+    counts = counts + 1;
+    copyAvailable = counts + copyAvailable;
+
+    document.getElementById('copy-available').innerText = copyAvailable;
+})
+
+// --------------------------------------------copy clicked end--------------------------
